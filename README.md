@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Konsep MVC
+
+- Model: mengelola data dan berhubungan dengan database.
+- View: menampilkan antarmuka aplikasi menggunakan Blade.
+- Controller: mengatur alur aplikasi, menerima permintaan pengguna, memproses data, dan menghubungkan Model dengan View.
+
+Dokumentasi
+
+Folder "dokumentasi" berisi screenshot routes, migration, dan Blade sebagai bukti pengerjaan proyek.
+
+Cara Menjalankan Aplikasi
+
+1. Jalankan "composer install".
+2. Salin ".env.example" menjadi ".env".
+3. Atur konfigurasi database pada file ".env".
+4. Jalankan "php artisan key:generate".
+5. Jalankan migration sesuai konfigurasi database.
+6. Jalankan "php artisan serve" untuk membuka aplikasi.

@@ -115,6 +115,8 @@ Arsitektur MVC
 - Model: mengelola data dan interaksi dengan database.
 - View: menampilkan antarmuka menggunakan Blade.
 - Controller: mengatur proses request dan pengolahan data.
+  
+* link demonstration vd: https://drive.google.com/drive/folders/1GBXZBQBjfhOJD284dTfdMkLB6i-ml8ij?usp=sharing
 
 Catatan
 

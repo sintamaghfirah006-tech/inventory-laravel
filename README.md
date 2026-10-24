@@ -57,3 +57,65 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+Inventory Management System
+
+Deskripsi
+
+Aplikasi Inventory Management System berbasis Laravel untuk mengelola data produk, kategori, supplier, dan transaksi penjualan.
+
+Teknologi
+
+- PHP
+- Laravel
+- MySQL/MariaDB
+- Blade
+- Composer
+
+Persyaratan
+
+- PHP dan ekstensi yang dibutuhkan Laravel
+- Composer
+- MySQL/MariaDB
+- Web browser
+
+Cara Instalasi
+
+1. Clone repository GitHub.
+
+2. Masuk ke folder project.
+
+3. Jalankan perintah:
+   
+   composer install
+
+4. Salin ".env.example" menjadi ".env".
+
+5. Buat database MySQL/MariaDB, lalu sesuaikan konfigurasi database pada ".env".
+
+6. Jalankan:
+   
+   php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+
+7. Buka alamat yang ditampilkan oleh Laravel di browser.
+
+Fitur
+
+- Pengelolaan produk
+- Pengelolaan kategori
+- Pengelolaan supplier
+- Pengelolaan penjualan
+
+Arsitektur MVC
+
+- Model: mengelola data dan interaksi dengan database.
+- View: menampilkan antarmuka menggunakan Blade.
+- Controller: mengatur proses request dan pengolahan data.
+
+Catatan
+
+Pastikan konfigurasi database sudah benar sebelum menjalankan migration dan seeder. Perintah migration dan seeder perlu disesuaikan dengan kondisi database project.
